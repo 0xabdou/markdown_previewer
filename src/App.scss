@@ -1,0 +1,20 @@
+@import 'shared';
+
+:root {
+  --app-height: 100%;
+}
+
+#root {
+  height: var(--app-height);
+  display: flex;
+  align-items: stretch;
+}
+
+.App {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: $background-color;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}

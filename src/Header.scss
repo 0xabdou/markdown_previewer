@@ -1,0 +1,29 @@
+.header {
+  z-index: 1;
+  display: flex;
+  background: #4AA3A3;
+  padding: 5px 10px;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+
+  .header-icon {
+    font-size: 1em;
+  }
+
+  .header-title {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .clickable {
+    &:hover {
+      color: #7ee0e0;
+      cursor: pointer;
+    }
+  }
+}
